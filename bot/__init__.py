@@ -688,7 +688,7 @@ if len(ZIP_LEVEL) == 0:
 else:
     ZIP_LEVEL = int(ZIP_LEVEL)
 
-LEECH_CAPTION = environ.get('LEECH_CAPTION')
+LEECH_CAPTION = environ.get('LEECH_CAPTION','')
 if len(LEECH_CAPTION) == 0:
     LEECH_CAPTION = ''
 
