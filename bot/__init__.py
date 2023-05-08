@@ -692,7 +692,7 @@ LEECH_CAPTION = environ.get('LEECH_CAPTION','')
 if len(LEECH_CAPTION) == 0:
     LEECH_CAPTION = ''
 
-REMOVE_FILE_TAG = environ.get('REMOVE_FILE_TAG')
+REMOVE_FILE_TAG = environ.get('REMOVE_FILE_TAG','')
 if len(REMOVE_FILE_TAG) == 0:
     REMOVE_FILE_TAG = ''
 
